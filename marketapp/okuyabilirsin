@@ -1,0 +1,34 @@
+marketapp-project/
+│
+├── pom.xml
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── marketapp/
+│   │   │           ├── dao/
+│   │   │           │   └── EmployeeDAO.java
+│   │   │           ├── gui/
+│   │   │           │   └── EmployeeDetailsPanel.java
+│   │   │           │   └── EmployeeFormPanel.java
+│   │   │           ├── model/
+│   │   │           │   └── Employee.java
+│   │   │           └── util/
+│   │   │               └── DatabaseConnection.java
+│   │   │           ├── App.java
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── market/
+│                   └── AppTest.java
+└── target/
+
+--Veri Tabanı Kodlari
+CREATE TABLE IF NOT EXISTS employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    position VARCHAR(100),
+    salary DOUBLE
+);
+
