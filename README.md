@@ -1,7 +1,5 @@
 # marketapp
 
-#Still in Progress
-
 ![r1](https://github.com/user-attachments/assets/d720c36f-e760-457b-bd7c-90bbd4a75412)
 ![r2](https://github.com/user-attachments/assets/109998ad-f328-44a5-924d-b313a5077613)
 ![r3](https://github.com/user-attachments/assets/3c3ce600-67c6-4adb-a055-dcd8557433ed)
